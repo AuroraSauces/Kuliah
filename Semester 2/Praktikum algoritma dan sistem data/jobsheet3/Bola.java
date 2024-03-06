@@ -6,7 +6,7 @@ public class Bola {
         jari=r;
     }
     double volumebola(){
-        return 4/3*3.14*jari*jari*jari;
+        return (4/3)*Math.PI*jari*jari*jari;
     }
     double Luaspermukaanbola (){
         return 4*3.14*jari*jari;
